@@ -1,0 +1,27 @@
+messages:
+  success:
+    save: Erfolgreich gespeichert
+    delete: Erfolgreich gelöscht
+  error:
+    emailUnique: E-Mail-Adresse in Verwendung
+    formValidation: Alle Felder ausfüllen
+    save: Fehler beim Speichern
+    delete: Fehler beim Löschen
+users:
+  titles:
+    index: Benutzerkonten,
+    create: Benutzerkonto anlegen
+    show: Benutzerkonto anzeigen
+    update: Benutzerkonto bearbeiten
+  attributes:
+    salutation: Anrede
+    title: Titel
+    firstName: Vorname
+    lastName: Nachname
+    email: E-Mail-Adresse
+    department: Abteilung
+    password: Passwort
+    admin: Administrator
+    active: Aktiviert
+    created: Angelegt am
+    updated: Aktualisiert am
