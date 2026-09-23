@@ -84,11 +84,11 @@ if (!function_exists('esc')) {
     /**
      * Escapes a string for safe HTML output by converting special characters to their corresponding HTML entities.
      *
-     * @param string $string
+     * @param ?string $string
      * @return string
      */
-    function esc(string $string): string {
-        return htmlspecialchars($string, ENT_QUOTES | ENT_SUBSTITUTE, 'UTF-8', false);
+    function esc(?string $string): string {
+        return htmlspecialchars($string ?? "", ENT_QUOTES | ENT_SUBSTITUTE, 'UTF-8', false);
     }
 }
 
